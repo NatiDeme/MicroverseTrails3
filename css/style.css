@@ -1,3 +1,7 @@
+body{
+    background: beige;
+
+}
 #titlewrap {
   text-align: center;
   margin-top: 20px;
@@ -6,7 +10,30 @@
   padding-top: 3px;
 }
 #survey-form {
-  margin-left: 478px;
-
-  margin-top: 30px;
+    margin-left: 478px;
+    margin-top: 30px;
+    background: darkgray;
+    width: max-content;
+    font-size: medium;
+    font-style: normal;
+    font-family: initial;
+}
+#submit{
+    height: 30px;
+    width: -webkit-fill-available;
+    background: cornflowerblue;
+}
+.div1{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+#name,#email,#number{
+    height: 22px;
+}
+#number{
+    width: 100px;
+}
+#dropdown{
+    height: 22px;
+    width: 100px;
 }
